@@ -9,7 +9,7 @@ export function Si() {
 
 //esto es lo mismo pero en una sola linea
 //el signo ? es el if y los : es el else
-export function Si2() {
+function Si2() {
   const mayor = true;
   function add(x, y) {
     return x + y;
@@ -24,3 +24,5 @@ export function Si2() {
     </div>
   );
 }
+// con este export, exporto por defecto una funcion y le asigno un nombre donde hago la importacion
+export default Si2
